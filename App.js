@@ -23,6 +23,7 @@
 
 import React from 'react';
 import type { Node } from 'react';
+// Problem with import type being a Typescript only issue? Doesn't seem to impact app.
 import {
   SafeAreaView,
   ScrollView,
@@ -42,6 +43,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const Section = ({children, title}): Node => {
+  // Another Type annotation only being allowed in Typescript files issue
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -68,6 +70,7 @@ const Section = ({children, title}): Node => {
 };
 
 const App: () => Node = () => {
+  // Another typescript only issue
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
