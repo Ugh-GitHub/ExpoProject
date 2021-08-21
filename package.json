@@ -7,9 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "lint": "eslint ." 
-    // npm run lint to launch linter
-    //Also debugging: https://kadikraman.github.io/react-native-v2/debugging
-  },
+    },
   "dependencies": {
     "expo": "~42.0.1",
     "expo-status-bar": "~1.0.4",
