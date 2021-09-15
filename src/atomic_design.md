@@ -11,8 +11,22 @@ Structure Overview
 │   │  ├── molecules
 │   │  ├── organisms
 │   ├── navigations
+│   │  ├── index.js            // RootNavigator
+│   │  ├── auth-navigator.js   // AuthNavigator
+│   │  ├── app-navigator.js    // AppNavigator
 │   ├── scenes
+│   │  ├── login
+│   │  │	 ├── index.js // LoginScreen
+│   │  ├── home
+│   │  │	 ├── index.js // HomeScreen
+│   │  ├── about
+│   │  │	 ├── index.js // AboutScreen
 │   ├── styles
+│   │  ├── index.js        // Export all
+│   │  ├── colors.js       // Colors pallet
+│   │  ├── mixins.js       // Mixins to use CSSinJS
+│   │  ├── spacing.js      // Paddings, margins and scale
+│   │  ├── typography.js   // Fonts types and sizes
 │   ├── utils
 │   ├── index.js
 
@@ -75,6 +89,10 @@ Key terms:
 * Organisms:    Combination of molecules that work together or groups of atoms in more elaborate interfaces.
 * Templates:    
 * Pages:        
+* Styles:
+* Services:     
+* Navigations:   
+* Utils:        Reusable methods, hooks, etc. that can be shared across the entire project.
 
 
 
