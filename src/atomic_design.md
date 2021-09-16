@@ -87,15 +87,17 @@ Key terms:
 * Atoms:        Smallest possible components, such as buttons, titles, inputs, or even color pallets, animations, and fonts.
 * Molecules:    Compositions of one or more components of atoms.
 * Organisms:    Combination of molecules that work together or groups of atoms in more elaborate interfaces.
-* Templates:    
-* Pages:        
-* Styles:
-* Services:     
-* Navigations:   
+* Templates:    Special component that acts like a placeholder to render a uniform looking page across all the application.
+* Pages:        Specific iteration of a specific template with corresponding components. Connected with the whole app
+* Styles:       stylistic files
+* Services:     Commonly used to create services that make contact with external APIs and use the axios library
+* Navigations:  https://reactnavigation.org/docs/getting-started/
 * Utils:        Reusable methods, hooks, etc. that can be shared across the entire project.
 
+Also useful:
+https://cheesecakelabs.com/blog/atomic-design-react/
 
-
+https://medium.com/engineering-zemoso/atomic-design-in-react-react-native-using-a-theming-library-part-1-4fc2e0e2ccc8
 
 
 
