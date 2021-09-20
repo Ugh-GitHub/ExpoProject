@@ -99,6 +99,9 @@ https://cheesecakelabs.com/blog/atomic-design-react/
 
 https://medium.com/engineering-zemoso/atomic-design-in-react-react-native-using-a-theming-library-part-1-4fc2e0e2ccc8
 
+Relative vs Absolute Paths
+https://levelup.gitconnected.com/understand-and-configure-absolute-import-paths-in-javascript-5cde3be2630d
+
 
 
 markdown tutorial
