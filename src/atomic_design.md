@@ -34,7 +34,7 @@ Steps:
 1. $ yarn add -D eslint-import-resolver-babel-module@^5.1.0
 eslint-plugin-import@^2.18.2 babel-plugin-module-resolver@^3.2.0
 
-# Note: : investigate the packages and find the node installs#
+# https://www.npmjs.com/package/eslint-import-resolver-babel-module #
 
 2. Edit the *.babelrc* & *.eslintrc.js*
 
